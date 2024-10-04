@@ -1,0 +1,36 @@
+body {
+  background-color: #010101;
+  display: grid;
+  place-content: center;
+  min-height: 50vh;
+}
+.pulser {
+  width: 50px;
+  height: 50px;
+  background-color: #09f;
+  border-radius: 100%;
+  position: relative;
+  cursor: pointer;
+  margin: 2rem;
+  transition: 0.2s ease-in;
+}
+.pulser:hover {
+  scale: 2;
+  transition-duration: 1s;
+}
+button {
+  padding: 1rem;
+  border-style: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  background-color: #09f;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s ease-in;
+}
+
+button:hover {
+  scale: 1.2;
+  transform: rotateX(30);
+}
